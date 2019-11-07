@@ -3,6 +3,8 @@ export interface Brewery {
   name: string,
   description: string,
   established: string,
+  isInBusiness: 'Y' | 'N',
+  website: string,
   images?: {
     large: string,
   }
